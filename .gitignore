@@ -34,3 +34,17 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .idea
+
+# Local environment files (keep credential-free examples)
+.env
+.env.*
+*.env
+!*.env*.example
+!*.env*.sample
+!*.env*.template
+!*.example.env
+!*.sample.env
+!*.template.env
+!example.env
+!sample.env
+!template.env
